@@ -14,7 +14,7 @@ for (alphabet= 'a'; alphabet <= 'z'; alphabet+++)
 putchar(alphabet);
 }
 
-ptchar('\n');
+putchar('\n');
 
 return (0);
 
