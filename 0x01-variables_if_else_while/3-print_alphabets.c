@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success/correcct)
  */
-int main (void)
+int main(void)
 {
 char lower_case;
 char upper_case;
