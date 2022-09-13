@@ -3,7 +3,8 @@
  * print_sign - function to check
  * @n: is the int
  * Return: 0
- */int print_sign(int n);
+ */
+int print_sign(int n)
 {
 	if (n > 0)
 	{
