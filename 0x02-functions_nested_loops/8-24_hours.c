@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * jack_bauer - func that 
- * 
- * Return: 0
+ * jack_bauer - func that
+ *
+ * Return:0
  */
 void jack_bauer(void)
 {
