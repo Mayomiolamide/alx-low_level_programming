@@ -26,7 +26,8 @@ void print_diagonal(int n)
 			{
 				continue;
 			}
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
+	_putchar('n');
 }
