@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * print_triangle - prints
- * @size: size parameter
- * Return: returns
+ * print_triangle - prints a triangle
+ * @size:size parameter of triangle
+ * Return: returns nothing
  */
 
 void print_triangle(int size)
@@ -15,24 +15,26 @@ void print_triangle(int size)
 	{
 		for (inc1 = 1; inc1 <= size; inc1++)
 		{
-			for ((inc2 = size - inc1); inc2 > 0; inc2++)
-			{
-				putchar(' ');
-			}
-
-			for (inc2 = 0; inc2 < inc1; inc2++)
-			{
-				_putchar('#');
-			}
-
-			if (inc1 == size)
-			{
-				continue;
-			}
-
-			_putchar('\n');
+			for ((inc2 = size - inc1); inc2 > 0; inc2--)
 		}
-
+		{
+			putchar(' ');
+		}
+		{
+			for (inc2 = 0; inc2 < inc1; inc2++)
+		}
+		{
+			putchar('#');
+		}
+		{
+			if (inc1 == size)
+		}
+		{
+			continue;
+		}
+		{
+			putchar('\n');
+		}
 	}
-	_putchar('\n')
+	putchar('\n');
 }
