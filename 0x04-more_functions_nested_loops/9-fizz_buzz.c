@@ -4,7 +4,6 @@
  * main - program that prints either number
  * or fizz or buzz or fizzBuzz
  *
- *
  * Return: returns 0
  */
 
@@ -35,9 +34,10 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", num);
+			printf("%d", num);
 		}
 	}
 	printf("\n");
+
 	return (0);
 }
