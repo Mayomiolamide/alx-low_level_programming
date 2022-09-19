@@ -21,5 +21,5 @@ void rev_string(char *s)
 
 		s[len - i - 1] = temp;
 	}
-	rev_string(str);
+	rev_string(s);
 }
