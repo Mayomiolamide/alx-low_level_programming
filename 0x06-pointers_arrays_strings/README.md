@@ -1,0 +1,1 @@
+pointers arrays andd stribgs
