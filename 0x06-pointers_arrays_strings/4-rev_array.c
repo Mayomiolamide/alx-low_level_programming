@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void reverse_array - function to reverse a string
+ * reverse_array - function to reverse a string
  * @a: array
  * @n: number of bytes
  * Return: yeah
