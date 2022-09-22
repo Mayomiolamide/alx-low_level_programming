@@ -22,7 +22,6 @@ char *rot13(char *str)
 				str[indx1] = rot13key[indx2];
 				break;
 			}
-			indx2++;
 		}
 		indx1++;
 
