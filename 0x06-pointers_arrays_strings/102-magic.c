@@ -1,4 +1,11 @@
 #include <stdio.h>
+#include "main.h"
+
+/**
+ * main - hfhf
+ *
+ * Return: 0
+ */
 
 int main(void)
 {
