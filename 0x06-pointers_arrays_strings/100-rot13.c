@@ -10,8 +10,8 @@
 char *rot13(char *str)
 {
 	int indx1 = 0, indx2;
-	char alphabet[] = "ABCDEFGHIJKLMNOPQRSTVWXYZabcdefghijklmnopqrstuvwxyz";
-	char rot13key[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABDEFGHIJKLM";
+	char alphabet[52] = "ABCDEFGHIJKLMNOPQRSTVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rot13key[52] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABDEFGHIJKLM";
 
 	while (str[indx1])
 	{
@@ -24,7 +24,6 @@ char *rot13(char *str)
 			}
 		}
 		indx1++;
-
 	}
 	return (str);
 }
