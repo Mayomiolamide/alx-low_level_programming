@@ -1,5 +1,7 @@
 #include "main.h"
 
+void check(char, int, int, int);
+
 /**
  * is_palindrome - is palindrome
  * @s: variable s
