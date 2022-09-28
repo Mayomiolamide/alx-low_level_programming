@@ -1,5 +1,7 @@
 #include "main.h"
 
+int is_prime(int, int);
+
 /**
  * is_prime_number - prime nummber
  * @n: interger n
