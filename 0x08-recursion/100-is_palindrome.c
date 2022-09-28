@@ -1,6 +1,6 @@
 #include "main.h"
 
-void check(char, int, int, int);
+void check(char*, int, int, int*);
 
 /**
  * is_palindrome - is palindrome
