@@ -8,11 +8,11 @@
  */
 int is_prime_number(int n)
 {
-	int g = n / 2;
+	int start = n / 2;
 
 	if (n <= 1)
 		return (0);
-	return (is_prime_number(n, g));
+	return (is_prime(n, start));
 }
 
 /**
