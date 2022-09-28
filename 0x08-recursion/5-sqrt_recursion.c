@@ -30,5 +30,4 @@ int _sqrt(int n, int x)
 	if (square == n)
 		return (x);
 	return (_sqrt(n, 1 + x));
-}
-			
+}	
