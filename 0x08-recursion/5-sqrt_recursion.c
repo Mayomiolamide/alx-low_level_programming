@@ -20,6 +20,7 @@ int _sqrt_recursion(int n)
  *
  * Return: the square root
  */
+int _sqrt(int n, int x)
 {
 	if (n > x / 2)
 		return (-1);
