@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main -func
+ * main - func
  * @argc: length of
  * @argv: hshs
  * Return: 0 awua
@@ -28,4 +28,18 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
+
+while (coins[position] != '\0')
+{
+	if (total >= coins[position])
+	{
+		aux = (total / coins[position]);
+		change += aux;
+		total -= coins[position] * aux;
+	}
+
+	position++;
+}
+printf("%d\n", change);
+return (0);
 }
