@@ -4,7 +4,7 @@
 #include <ctype.h>
 
 /**
- *  check}num - check
+ *  check_num - check
  *  @str: aray
  *
  *  Return: alwqys
