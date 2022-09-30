@@ -9,6 +9,7 @@
  */
 int main(int argc, char *argv)
 {
-	_putchar("argc: %d\n", argc);
+	_putchar("argv: %s", argc);
+	_putchar('\n');
 	return (0);
 }
