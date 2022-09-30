@@ -4,7 +4,7 @@
 #include <ctype.h>
 
 /**
- *  check_num - check
+ *  check_num - check - string
  *  @str: aray
  *
  *  Return: alwqys
@@ -13,7 +13,6 @@
 int check_num(char *str)
 {
 	unsigned int count;
-
 	count = 0;
 
 	while (count < strlen(str))
