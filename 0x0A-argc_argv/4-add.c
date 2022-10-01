@@ -13,9 +13,11 @@
 int check_num(char *str)
 {
 	unsigned int count;
+
 	count = 0;
 
 	while (count < strlen(str))
+
 	{
 		if (!isdigit(str[count]))
 		{
@@ -35,7 +37,6 @@ int check_num(char *str)
  */
 
 int main(int argc, char *argv[])
-
 {
 	int count;
 	int str_to_int;
