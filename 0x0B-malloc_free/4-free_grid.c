@@ -4,7 +4,7 @@
  * free_grid - free
  * @grid: grid
  * @height: heght
- * Return: null 
+ * Return: null
  */
 
 void free_grid(int **grid, int height)
