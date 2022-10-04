@@ -5,6 +5,7 @@
  * @str: string
  * Returns: NULL
  */
+
 char *_strdup(char *str)
 {
 	char *cpy;
