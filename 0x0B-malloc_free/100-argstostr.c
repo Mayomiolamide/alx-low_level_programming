@@ -6,7 +6,7 @@
  * Return: null
  */
 
-int char(len)
+int len(char *str)
 {
 	int len = 0
 
