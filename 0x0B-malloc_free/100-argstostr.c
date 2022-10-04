@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * len: len
+ * len - len
  * @str: str
  * Return: null
  */
