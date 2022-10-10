@@ -1,8 +1,10 @@
-#include <stdlib.h> include "dog.h"
+#include <stdlib.h>
+#include "dog.h"
 
-/** free_dog - free memory
+/**
+ * free_dog - free dog
  * @d: array
- * Description: Free memory for struct
+ * Description: free memory for stuct
  */
 
 void free_dog(dog_t *d)
