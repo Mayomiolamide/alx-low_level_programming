@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * op_add - unction to add 
+ * op_add - unction to add
  * @a: variable a
  * @b: variable b
  *
@@ -54,7 +54,7 @@ int op_div(int a, int b)
 
 /**
  * op_mod - function to print remainder
- * @a: variable a 
+ * @a: variable a
  * @b: variable b
  *
  * Return: a % b
