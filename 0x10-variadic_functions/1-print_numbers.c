@@ -5,31 +5,25 @@
  * print_numbers - print numbers
  * @separator: string to be printed between numbers
  * @n: number of integers passed into the functions
- *
+ * @...: a variable number of numbers to be printed
  * Return: null
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	va_list valist;
-	unsigned int i;
+	va_list nums;
+	unsigned int index;
 	char *str;
 
-	va_start(valist, n);
+	va_start(nums, n);
 
-	for (i = 0; i < n; i++)
+	for (index = 0; index < n; index++)
 	{
-		str = va_arg(valist, char *);
+		printf("%d", va_arg(nums, int));
 
-		if (str)
-			printf("%s", str);
-		else
-			printf("(nil)");
-
-		if (i < n - 1)
-			if (separator)
-				printf("%s", separator);
+		if (index != (n - 1) && separator != NULL)
+			printf("%s", separator);
 	}
 	printf("\n");
-	va_end(valist);
+	va_end(nums);
 }
