@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - print numbers
+ * print_strings - print numbers
  * @separator: string to be pr
  * @n: number of integers passed into
  * @...: number of
